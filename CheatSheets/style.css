@@ -1,0 +1,44 @@
+.box {
+  padding: 25px;
+  margin: 0;
+}
+
+#baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+
+#merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+#montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+#oxygen {
+  font-family: 'Oxygen', sans-serif;
+}
+
+#playfairdisplay {
+  font-family: 'Playfair Display', serif;
+}
+
+#prata {
+  font-family: 'Prata', serif;
+}
+
+#quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+#satisfy {
+  font-family: 'Satisfy', cursive;
+}
