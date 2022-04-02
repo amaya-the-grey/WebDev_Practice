@@ -1,0 +1,13 @@
+Running list of resources for web design and development!
+
+Google Font Pairings:
+    https://heyreliable.com/ultimate-google-font-pairings/
+
+Color Hierarchy Visualization:
+    https://color.cloudflare.design/
+
+Wireframing and Prototyping:
+    https://xd.adobe.com/ideas/process/wireframing/wireframe-design-definition/
+
+Web Safe Fonts:
+    https://www.cssfontstack.com/
