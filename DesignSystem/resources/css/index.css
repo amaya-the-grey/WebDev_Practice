@@ -1,0 +1,247 @@
+
+h1 {
+  color: Gray;
+  font-family: baskerville;
+  font-size: 44px
+}
+
+h2 {
+  color: Gray;
+  font-family: playfairdisplay;
+  font-size: 32px
+}
+
+h3 {
+  color: Gray;
+  font-family: satisfy;
+  font-size: 28px
+}
+
+p {
+  font-family: quicksand;
+  font-size: 22px;
+  display: block;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    background-color: #E8E8E8; /*Value: 1*/
+    padding: 10px;
+    margin: 10px auto;
+}
+
+div {
+  display: block;
+}
+
+/* colors */
+
+.color-container {
+    width: 100%;
+    text-align: center;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 50px;
+}
+
+.dark-peach{
+  background-color: #a77b6c;
+}
+
+.latte {
+  background-color: #cbb094;
+}
+
+.rich-coffee {
+  background-color: #3b3a30;
+  color:white;
+}
+
+.cool-burgundy {
+  background-color: #563f46;
+  color: white;
+}
+
+.dark-burgundy {
+  background-color: #4d2f45;
+  color: white;
+}
+
+.smokey-purple {
+  background-color: #69657f;
+  color: white;
+}
+
+.dark-purple {
+  background-color: #505166;
+  color: white;
+}
+
+.deep-blue {
+  background-color: #1d1e32;
+  color: white;
+}
+
+.cream {
+  background-color: #f3f0ec;
+}
+.medium-grey {
+  background-color: #898a9f;
+}
+
+.light-smoke {
+  background-color: #b3b6bd;
+}
+.sea-blue {
+  background-color: #8ca3a3;
+}
+
+.deep-grey {
+  background-color: #484f4f;
+  color: white;
+}
+
+.cool-mint {
+  background-color: #c0ded9;
+}
+
+.blue-grey {
+  background-color: #b2c2bf;
+}
+
+.eggshell {
+  background-color: #eaece5;
+}
+
+.lilac-grey {
+  background-color: #c8c3cc;
+}
+
+.baby-blue {
+  background-color: #B0E1FF;
+}
+
+.baby-purple {
+  background-color: #e6c6ff;
+}
+
+.baby-pink {
+  background-color: #FFDAF5;
+}
+
+.sage-green {
+  background-color: #596854;
+}
+
+.leaf-green {
+  background-color: #7f803e;
+}
+
+.caramel {
+  background-color: #cc9a52;
+}
+
+.orange-brown {
+  background-color: #ad794b;
+}
+
+.blue-purple {
+  background-color: #674ab3;
+}
+
+.dusty-purple {
+  background-color: #9f63c4;
+}
+
+.dusty-blue {
+  background-color: #9075d8;
+}
+
+.dusty-pink {
+  background-color: #cea2d7;
+}
+
+.baby-cyan {
+  background-color: #DEFFFA;
+}
+
+
+/* fonts */
+
+.font-container {
+  width: 100%;
+  text-align: center;
+}
+
+.font-panel {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 50px;
+}
+
+
+.baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.playfairdisplay {
+  font-family: 'Playfair Display', serif;
+}
+
+.prata {
+  font-family: 'Prata', serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.oxygen {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.satisfy {
+  font-family: 'Satisfy', cursive;
+}
+
+.euphoria {
+  font-family: 'Euphoria Script', cursive;
+}
+
+.lilly {
+  font-family: 'Lily Script One', cursive;
+}
+
+.pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
