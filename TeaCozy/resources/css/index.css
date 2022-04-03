@@ -1,0 +1,153 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+}
+
+p {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+
+.header-right {
+  width: 500px;
+  display: inline-block;
+  padding: 10px;
+  text-align: right;
+}
+
+.mission-container {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-top: 63px;
+  text-align: center;
+  background-image: url("../img-mission-background.webp");
+}
+
+
+.mission-statement {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+
+.tea-container {
+  width: 1000px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.tea-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.tea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.locations-container {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  background-size: 1200px 500px;
+  background-image: url("../img-locations-background.webp");
+}
+
+.locations-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 980px;
+
+}
+
+
+.block {
+  background-color: black;
+  width: 300px;
+  margin: 15px;
+}
+
+.contact {
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: left;
+}
+
+#logo{
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.9;
+}
