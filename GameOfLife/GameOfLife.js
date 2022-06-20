@@ -13,6 +13,27 @@ const height = (canvas.height / cellSize);
 //vaporwave.setSpectrum('#8B61AC', '#79E2FF', '#FF97C6');
 //vaporwave.setNumberRange(0, width);
 
+// import React from 'react';
+//
+// export class Clock extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { date: new Date() };
+//   }
+//   render() {
+//     return <div>{this.state.date.toLocaleTimeString()}</div>;
+//   }
+//   componentDidMount() {
+//     const oneSecond = 1000;
+//     this.intervalID = setInterval(() => {
+//       this.setState({ date: new Date() });
+//     }, oneSecond);
+//   }
+//
+//   componentWillUnmount() {
+//     clearInterval(this.intervalID);
+//   }
+// }
 
 
 
