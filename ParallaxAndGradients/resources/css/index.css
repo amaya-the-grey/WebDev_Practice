@@ -51,6 +51,15 @@ a:hover {
   color:#303030;
 }
 
+p {
+  margin: 0;
+  padding: 0.25em;
+  color: #505050;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+
 .card {
   width: 100%;
   height: 200px;
@@ -89,7 +98,7 @@ a:hover {
     min-height: 1000px;
 }
 
-@keyframes bubble-fade-in {
+@keyframes bubble-fade-in-left {
   from {opacity: 30%;
         transform: translate(-25%,-25%);}
   to {opacity: 100%;}
@@ -102,7 +111,7 @@ a:hover {
   width: 220px;
   height: 220px;
   opacity: 100%;
-  animation-name: bubble-fade-in;
+  animation-name: bubble-fade-in-left;
   animation-duration: 0.5s;
   animation-timing-function: linear;
   margin: 20px;
@@ -143,7 +152,6 @@ a:hover {
 }
 
 .parallax-sparkles {
-  background-image: url("../bubble-dream.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -153,14 +161,40 @@ a:hover {
 
 }
 
+/* pseudo-element work-around to lower image opacity */
+.parallax-sparkles::before {
+      content: "";
+      background-image: url("../bubble-dream.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+
 .parallax-leaf {
-  background-image: url("../leaf.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* pseudo-element work-around to lower image opacity */
+.parallax-leaf::before {
+      content: "";
+      background-image: url("../leaf.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
 }
 
 .parallax-feather {
@@ -191,6 +225,17 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.text-box {
+  background-color: #E8E5E9 ;
+  width: 100%;
+  height: 20%;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .allura {
